@@ -11,6 +11,7 @@ set expandtab
 set shiftwidth=3
 set softtabstop=3
 set enc=utf-8
+colors wombat
 
 map <C-F7> :!make<CR>
 map <C-F8> :!./%<<CR>

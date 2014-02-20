@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir=~/dotfiles
-files="vimrc vim"
+files="vimrc vim zshrc"
 
 cd $dir
 

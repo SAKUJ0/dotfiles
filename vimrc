@@ -12,9 +12,8 @@ set shiftwidth=3
 set softtabstop=3
 set enc=utf-8
 
-map <F7> :!make<CR>
-map <F8> :!g++ -I/usr/include/eigen2/ -o %< %<CR>
-map <F9> :!./%<<CR>
+map <C-F7> :!make<CR>
+map <C-F8> :!./%<<CR>
 
 " vim-latexsuite
 let g:tex_flavor='latex'

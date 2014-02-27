@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/sakujo/dotfiles'
 let g:netrw_dirhist_2='/home/sakujo/dotfiles/zsh/plugins/git'
 let g:netrw_dirhist_3='/home/sakujo/dotfiles/zsh/custom/example'
+let g:netrw_dirhist_4='/home/sakujo/dotfiles/zsh/plugins/git'
+let g:netrw_dirhist_5='/home/sakujo/dotfiles/zsh/plugins/git-extras'
+let g:netrw_dirhist_6='/home/sakujo/dotfiles/zsh/plugins/gitfast'

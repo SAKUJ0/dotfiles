@@ -45,11 +45,14 @@ ZSH_THEME="mrtazz"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git command-not-found custom-aliases debian last-working-dir lol python wd)
+plugins=(git command-not-found custom-aliases debian lol python wd)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+source $ZSH/git-prompt/zshrc.sh
+RPROMPT='$(git_super_status)'
 
 #export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"

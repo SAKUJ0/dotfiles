@@ -13,8 +13,8 @@ set softtabstop=3
 set enc=utf-8
 colors wombat
 
-map <C-F7> :!make<CR>
-map <C-F8> :!./%<<CR>
+map <F7> :!make<CR>
+map <F8> :!./%<<CR>
 
 " vim-latexsuite
 let g:tex_flavor='latex'
@@ -23,11 +23,11 @@ set grepprg=grep\ -nH\ $*
 " tagfiles
 set tags+=~/.vim/tags/cpp
 set tags+=~/.vim/tags/root
-map <C-F12> :!ctags -R --sort=yes --c++-kinds=+pl --fields=+iaS --extra=+q .<CR>
+map <F12> :!ctags -R --sort=yes --c++-kinds=+pl --fields=+iaS --extra=+q .<CR>
 " taglist
-map <C-F10> :TlistAddFilesRecursive ./ *.c*<CR>:TlistAddFilesRecursive ./
+map <F10> :TlistAddFilesRecursive ./ *.c*<CR>:TlistAddFilesRecursive ./
 " *.C*<CR>:TlistAddFilesRecursive ./ *.h*<CR>
-map <C-F11> :TlistToggle<CR>
+map <F11> :TlistToggle<CR>
 
 " OmniCppComplete
 set nocp " no-compatible

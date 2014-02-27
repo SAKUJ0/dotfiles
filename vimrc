@@ -16,6 +16,13 @@ colors wombat
 map <F7> :!make<CR>
 map <F8> :!./%<<CR>
 
+" pathogen
+execute pathogen#infect()
+
+" a.vim
+noremap  <Leader>a   :A<CR>
+inoremap <Leader>a   :A<CR>
+
 " vim-latexsuite
 let g:tex_flavor='latex'
 set grepprg=grep\ -nH\ $*
@@ -25,7 +32,8 @@ set tags+=~/.vim/tags/cpp
 set tags+=~/.vim/tags/root
 map <F12> :!ctags -R --sort=yes --c++-kinds=+pl --fields=+iaS --extra=+q .<CR>
 " taglist
-map <F10> :TlistAddFilesRecursive ./ *.c*<CR>:TlistAddFilesRecursive ./
+map <F10> :TlistAddFilesRecursive ./ *.c*<CR>
+":TlistAddFilesRecursive ./
 " *.C*<CR>:TlistAddFilesRecursive ./ *.h*<CR>
 map <F11> :TlistToggle<CR>
 

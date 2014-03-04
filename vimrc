@@ -22,6 +22,7 @@ execute pathogen#infect()
 " a.vim
 noremap  <Leader>a   :A<CR>
 inoremap <Leader>a   :A<CR>
+let g:alternateNoDefaultAlternate = 1
 
 " vim-latexsuite
 let g:tex_flavor='latex'

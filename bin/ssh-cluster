@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh os145997@cluster.rz.rwth-aachen.de -X

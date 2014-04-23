@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh sensebat@portal.physik.rwth-aachen.de -X
